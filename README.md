@@ -1,4 +1,6 @@
 # MailChimpEcommerceBundle
-MailChimp E-commerce Stores integration for your Symfony 2 application
+## About ##
+
+This bundle integrates [MailChimp E-commerce Stores (http://developer.mailchimp.com/documentation/mailchimp/reference/ecommerce/stores/) into your Symfony 2 application.
 
 Coming soon...

@@ -1,8 +1,8 @@
 <?php
 /*
- * This file is part of the Mascoteros package.
+ * This file is part of the MailChimpEcommerceBundle package.
  *
- * Copyright (c) 2016-2017 Mascoteros.com
+ * Copyright (c) 2017 kevin92dev.es
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -12,12 +12,12 @@
  * @author Kevin Murillo <kevin92dev@gmail.com>
  */
 
-namespace Atresmediahf\MailChimpEcommerceBundle\Services;
+namespace MailChimpEcommerceBundle\Services;
 
-use Atresmediahf\MailChimpEcommerceBundle\Entities\Customer;
-use Atresmediahf\MailChimpEcommerceBundle\Entities\Address;
-use Atresmediahf\MailChimpEcommerceBundle\Exceptions\CustomerNotFoundException;
-use Atresmediahf\MailChimpEcommerceBundle\RequestTypes;
+use MailChimpEcommerceBundle\Entities\Customer;
+use MailChimpEcommerceBundle\Entities\Address;
+use MailChimpEcommerceBundle\Exceptions\CustomerNotFoundException;
+use MailChimpEcommerceBundle\RequestTypes;
 
 /**
  * CustomerService

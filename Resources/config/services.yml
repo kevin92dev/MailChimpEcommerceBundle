@@ -1,6 +1,6 @@
 services:
     mailchimp_ecommerce.mailchimp:
-        class: Atresmediahf\MailChimpEcommerceBundle\Services\MailChimp
+        class: MailChimpEcommerceBundle\Services\MailChimp
         arguments:
             - %mailchimp_ecommerce.api_key%
             - %mailchimp_ecommerce.store_id%
@@ -8,16 +8,16 @@ services:
             - true
 
     mailchimp_ecommerce.product:
-        class: Atresmediahf\MailChimpEcommerceBundle\Services\ProductService
+        class: MailChimpEcommerceBundle\Services\ProductService
         arguments:
             - @mailchimp_ecommerce.mailchimp
 
     mailchimp_ecommerce.customer:
-        class: Atresmediahf\MailChimpEcommerceBundle\Services\CustomerService
+        class: MailChimpEcommerceBundle\Services\CustomerService
         arguments:
             - @mailchimp_ecommerce.mailchimp
 
     mailchimp_ecommerce.order:
-        class: Atresmediahf\MailChimpEcommerceBundle\Services\OrderService
+        class: MailChimpEcommerceBundle\Services\OrderService
         arguments:
             - @mailchimp_ecommerce.mailchimp

@@ -12,7 +12,7 @@
  * @author Kevin Murillo <kevin92dev@gmail.com>
  */
 
-namespace MailChimpEcommerceBundle;
+namespace Kevin92dev\MailChimpEcommerceBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

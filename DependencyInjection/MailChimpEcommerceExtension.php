@@ -12,7 +12,7 @@
  * @author Kevin Murillo <kevin92dev@gmail.com>
  */
 
-namespace MailChimpEcommerceBundle\DependencyInjection;
+namespace Kevin92dev\MailChimpEcommerceBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

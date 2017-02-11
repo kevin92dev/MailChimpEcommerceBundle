@@ -1,6 +1,6 @@
 services:
     mailchimp_ecommerce.mailchimp:
-        class: MailChimpEcommerceBundle\Services\MailChimp
+        class: Kevin92dev\MailChimpEcommerceBundle\Services\MailChimp
         arguments:
             - %mailchimp_ecommerce.api_key%
             - %mailchimp_ecommerce.store_id%
@@ -8,16 +8,16 @@ services:
             - true
 
     mailchimp_ecommerce.product:
-        class: MailChimpEcommerceBundle\Services\ProductService
+        class: Kevin92dev\MailChimpEcommerceBundle\Services\ProductService
         arguments:
             - @mailchimp_ecommerce.mailchimp
 
     mailchimp_ecommerce.customer:
-        class: MailChimpEcommerceBundle\Services\CustomerService
+        class: Kevin92dev\MailChimpEcommerceBundle\Services\CustomerService
         arguments:
             - @mailchimp_ecommerce.mailchimp
 
     mailchimp_ecommerce.order:
-        class: MailChimpEcommerceBundle\Services\OrderService
+        class: Kevin92dev\MailChimpEcommerceBundle\Services\OrderService
         arguments:
             - @mailchimp_ecommerce.mailchimp

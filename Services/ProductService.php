@@ -12,12 +12,12 @@
  * @author Kevin Murillo <kevin92dev@gmail.com>
  */
 
-namespace MailChimpEcommerceBundle\Services;
+namespace Kevin92dev\MailChimpEcommerceBundle\Services;
 
-use MailChimpEcommerceBundle\Entities\Product;
-use MailChimpEcommerceBundle\Entities\ProductVariant;
-use MailChimpEcommerceBundle\Exceptions\ProductNotFoundException;
-use MailChimpEcommerceBundle\RequestTypes;
+use Kevin92dev\MailChimpEcommerceBundle\Entities\Product;
+use Kevin92dev\MailChimpEcommerceBundle\Entities\ProductVariant;
+use Kevin92dev\MailChimpEcommerceBundle\Exceptions\ProductNotFoundException;
+use Kevin92dev\MailChimpEcommerceBundle\RequestTypes;
 
 /**
  * ProductService

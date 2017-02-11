@@ -12,7 +12,7 @@
  * @author Kevin Murillo <kevin92dev@gmail.com>
  */
 
-namespace MailChimpEcommerceBundle\DependencyInjection;
+namespace Kevin92dev\MailChimpEcommerceBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

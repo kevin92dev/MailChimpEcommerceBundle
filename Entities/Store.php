@@ -12,7 +12,7 @@
  * @author Kevin Murillo <kevin92dev@gmail.com>
  */
 
-namespace MailChimpEcommerceBundle\Entities;
+namespace Kevin92dev\MailChimpEcommerceBundle\Entities;
 
 class Store
 {

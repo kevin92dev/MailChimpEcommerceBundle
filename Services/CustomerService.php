@@ -12,12 +12,12 @@
  * @author Kevin Murillo <kevin92dev@gmail.com>
  */
 
-namespace MailChimpEcommerceBundle\Services;
+namespace Kevin92dev\MailChimpEcommerceBundle\Services;
 
-use MailChimpEcommerceBundle\Entities\Customer;
-use MailChimpEcommerceBundle\Entities\Address;
-use MailChimpEcommerceBundle\Exceptions\CustomerNotFoundException;
-use MailChimpEcommerceBundle\RequestTypes;
+use Kevin92dev\MailChimpEcommerceBundle\Entities\Customer;
+use Kevin92dev\MailChimpEcommerceBundle\Entities\Address;
+use Kevin92dev\MailChimpEcommerceBundle\Exceptions\CustomerNotFoundException;
+use Kevin92dev\MailChimpEcommerceBundle\RequestTypes;
 
 /**
  * CustomerService

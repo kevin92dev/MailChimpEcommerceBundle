@@ -12,7 +12,7 @@
  * @author Kevin Murillo <kevin92dev@gmail.com>
  */
 
-namespace MailChimpEcommerceBundle\Exceptions;
+namespace Kevin92dev\MailChimpEcommerceBundle\Exceptions;
 
 class CustomerNotFoundException extends \Exception
 {

@@ -12,11 +12,11 @@
  * @author Kevin Murillo <kevin92dev@gmail.com>
  */
 
-namespace MailChimpEcommerceBundle\Services;
+namespace Kevin92dev\MailChimpEcommerceBundle\Services;
 
-use MailChimpEcommerceBundle\Entities\Store;
-use MailChimpEcommerceBundle\RequestTypes;
-use MailChimpEcommerceBundle\Services\MailChimp;
+use Kevin92dev\MailChimpEcommerceBundle\Entities\Store;
+use Kevin92dev\MailChimpEcommerceBundle\RequestTypes;
+use Kevin92dev\MailChimpEcommerceBundle\Services\MailChimp;
 
 /**
  * StoreService

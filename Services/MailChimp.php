@@ -12,12 +12,12 @@
  * @author Kevin Murillo <kevin92dev@gmail.com>
  */
 
-namespace MailChimpEcommerceBundle\Services;
+namespace Kevin92dev\MailChimpEcommerceBundle\Services;
 
-use MailChimpEcommerceBundle\Exceptions\CustomerNotFoundException;
-use MailChimpEcommerceBundle\Exceptions\OrderNotFoundException;
-use MailChimpEcommerceBundle\Exceptions\ProductNotFoundException;
-use MailChimpEcommerceBundle\RequestTypes;
+use Kevin92dev\MailChimpEcommerceBundle\Exceptions\CustomerNotFoundException;
+use Kevin92dev\MailChimpEcommerceBundle\Exceptions\OrderNotFoundException;
+use Kevin92dev\MailChimpEcommerceBundle\Exceptions\ProductNotFoundException;
+use Kevin92dev\MailChimpEcommerceBundle\RequestTypes;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
 

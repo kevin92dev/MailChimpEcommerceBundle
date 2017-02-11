@@ -1,0 +1,17 @@
+{
+    "name": "kevin92dev/mailchimp-ecommerce-bundle",
+    "description": "MailChimp E-commerce Stores integration for your Symfony 2 application",
+    "keywords": ["mailchimp","mailchimp ecommerce","symfony2"],
+    "homepage": "https://github.com/kevin92dev",
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "authors": [
+        {
+            "name": "Kevin Murillo",
+            "email": "kevin92dev@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}

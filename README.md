@@ -1,5 +1,8 @@
 # MailChimpEcommerceBundle
 
+[![Build Status](https://scrutinizer-ci.com/g/kevin92dev/MailChimpEcommerceBundle/badges/build.png?b=master)](https://scrutinizer-ci.com/g/kevin92dev/MailChimpEcommerceBundle/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/kevin92dev/MailChimpEcommerceBundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kevin92dev/MailChimpEcommerceBundle/?branch=master)
+
 ## About ##
 
 This bundle integrates [MailChimp E-commerce Stores](http://developer.mailchimp.com/documentation/mailchimp/reference/ecommerce/stores/) into your Symfony 2 application.

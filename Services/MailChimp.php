@@ -65,9 +65,9 @@ class MailChimp
         $key = preg_split("/-/", $this->apiKey);
 
         if ($ssl) {
-            $this->endPoint ='https://'.$key[1].'.api.mailchimp.com/3.0/ecommerce/stores/'.$storeId;
+            $this->endPoint = 'https://'.$key[1].'.api.mailchimp.com/3.0/ecommerce/stores/'.$storeId;
         } else {
-            $this->endPoint ='http://'.$key[1].'.api.mailchimp.com/3.0/ecommerce/stores'.$storeId;
+            $this->endPoint = 'http://'.$key[1].'.api.mailchimp.com/3.0/ecommerce/stores'.$storeId;
         }
     }
 
@@ -78,7 +78,7 @@ class MailChimp
      * @param array $body
      * @param string $resource
      *
-     * @return mixed|\Psr\Http\Message\ResponseInterface
+     * @return \Psr\Http\Message\ResponseInterface|null
      * @throws CustomerNotFoundException
      * @throws ProductNotFoundException
      * @throws \Exception

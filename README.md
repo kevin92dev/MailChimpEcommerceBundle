@@ -18,10 +18,10 @@ $ composer require guzzlehttp/guzzle
 
 ## Installation ##
 
-Add the `kevin92dev/mailchimp-ecommerce-bundle` package to your `require` section in the `composer.json` file.
+Add the `mascoteroscom/mailchimp-ecommerce-bundle` package to your `require` section in the `composer.json` file.
 
 ``` bash
-$ composer require kevin92dev/mailchimp-ecommerce-bundle
+$ composer require mascoteroscom/mailchimp-ecommerce-bundle
 ```
 
 Add the MailChimpEcommerceBundle to your application's kernel:
